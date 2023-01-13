@@ -1,1 +1,2 @@
-# Cource-of-currencies
+# Красенко Анастасия ИП-19-3
+# bin -> debug -> .exe
