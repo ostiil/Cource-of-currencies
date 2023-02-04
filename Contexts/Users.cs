@@ -3,6 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace demo.Contexts
 {
+
+    [Table("Users")]
     public record Users
     {
         [Key]

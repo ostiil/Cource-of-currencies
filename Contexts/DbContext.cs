@@ -11,8 +11,20 @@ namespace demo.Contexts
     {
         public DbSet<Users> Users { get; set; }
 
-        public DbContextIntagrator(DbContextOptions<DbContextIntagrator> connection) 
+        public DbSet<Currency> Currencies { get; set; }
+        /*public DbContextIntagrator(DbContextOptions<DbContextIntagrator> connection) : base(connection) 
         {
+            Database.EnsureCreated();
+        }*/
+
+        public DbContextIntagrator()
+        {
+            Database.EnsureCreated();
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Data Source = TPC\\SQLEXPRESS; Initial Catalog = demo; Integrated Security = True; TrustServerCertificate=True");
         }
     }
 }

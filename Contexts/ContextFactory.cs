@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace demo.Contexts
 {
-    public class ContextFactory : IDesignTimeDbContextFactory<DbContextIntagrator>
+    public class ContextFactory //: IDesignTimeDbContextFactory<DbContextIntagrator>
     {
-        public DbContextIntagrator CreateDbContext(string[] args)
+        /*public DbContextIntagrator CreateDbContext(string[] args)
         {
-            var optionBuilder = new DbContextOptionsBuilder<DbContextIntagrator>();
+            /*var optionBuilder = new DbContextOptionsBuilder<DbContextIntagrator>();
             optionBuilder.UseSqlServer("Data Source=TPC\\SQLEXPRESS;Initial Catalog=demo;Integrated Security=True");
-            return new DbContextIntagrator(optionBuilder.Options);
+            return new DbContextIntagrator(optionBuilder.Options);*/
         }
     }
-}
+

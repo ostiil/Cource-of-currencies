@@ -19,7 +19,8 @@ namespace demo
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
 
-            serviceProvider = CreateProvider();
+            /*serviceProvider = CreateProvider();
+            
             context = serviceProvider.GetRequiredService<ApplicationContext>();
 
             ApplicationConfiguration.Initialize();
@@ -27,7 +28,7 @@ namespace demo
             var login = serviceProvider.GetRequiredService<MainForm>();
             
             context.MainForm = login;
-            Application.Run(context);
+            Application.Run(context);*/
 
             
             Application.Run(new MainForm());
@@ -39,6 +40,7 @@ namespace demo
 
             services.AddTransient<SignUp>();
             services.AddTransient<MainForm>();
+            services.AddTransient<ApplicationContext>();
             services.AddTransient<Func<MainForm>>(sp =>
             {
                 return () => sp.GetRequiredService<MainForm>();

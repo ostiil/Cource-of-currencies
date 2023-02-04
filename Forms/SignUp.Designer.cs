@@ -112,7 +112,7 @@
             this.Controls.Add(this.fioTextBox);
             this.Controls.Add(this.signUpButton);
             this.Name = "SignUp";
-            this.Text = "Form1";
+            this.Text = "Регистрация";
             this.ResumeLayout(false);
             this.PerformLayout();
 

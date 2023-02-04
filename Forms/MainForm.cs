@@ -1,4 +1,5 @@
-﻿using System;
+﻿using demo.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,21 @@ namespace demo
             SignUp sign_In = new SignUp();
             sign_In.Show();
             Hide();
+        }
+
+        private void signInButton_Click(object sender, EventArgs e)
+        {
+            UserService userService = new UserService();
+            try
+            {
+                userService.AuthorizeUser(loginTextBox.Text, passwordTextBox.Text);
+                CurrencyForm currencyForm = new CurrencyForm();
+                currencyForm.Show();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

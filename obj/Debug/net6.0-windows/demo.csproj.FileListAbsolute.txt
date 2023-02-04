@@ -53,3 +53,5 @@ D:\c#\demo\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runti
 D:\c#\demo\obj\Debug\net6.0-windows\demo.csproj.CopyComplete
 D:\c#\demo\obj\Debug\net6.0-windows\demo.MainForm.resources
 D:\c#\demo\obj\Debug\net6.0-windows\demo.SignUp.resources
+D:\c#\demo\obj\Debug\net6.0-windows\demo.Forms.CurrencyForm.resources
+D:\c#\demo\obj\Debug\net6.0-windows\demo.Forms.AddCurrencyForm.resources
