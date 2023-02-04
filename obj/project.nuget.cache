@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yVpPHdBoY5DaC/Wy9I9ezsx2UnrXnPdNdPeM0FFnb9ryaC9ILILdUPJl6n2lm96EkP+JE7JH5Z6NNyI3phuH4w==",
+  "dgSpecHash": "uq7rFWFW85No5SRlFkG9CEN1uDNGcdpnu/6cKxEq4YoN1hHkUWHwAoSSlsUgJDk3VlHg1bYUVdI+tDnPXyrBYA==",
   "success": true,
-  "projectFilePath": "D:\\c#\\demo\\demo.csproj",
+  "projectFilePath": "D:\\OpenServer\\domains\\wp-main\\courcesOfCurrency\\demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\askra\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\askra\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
