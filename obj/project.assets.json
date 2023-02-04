@@ -3230,11 +3230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\c#\\demo\\demo.csproj",
+      "projectUniqueName": "D:\\OpenServer\\domains\\wp-main\\courcesOfCurrency\\demo.csproj",
       "projectName": "demo",
-      "projectPath": "D:\\c#\\demo\\demo.csproj",
+      "projectPath": "D:\\OpenServer\\domains\\wp-main\\courcesOfCurrency\\demo.csproj",
       "packagesPath": "C:\\Users\\askra\\.nuget\\packages\\",
-      "outputPath": "D:\\c#\\demo\\obj\\",
+      "outputPath": "D:\\OpenServer\\domains\\wp-main\\courcesOfCurrency\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
